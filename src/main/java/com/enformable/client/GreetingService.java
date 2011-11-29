@@ -1,4 +1,4 @@
-package mainsite.client;
+package com.enformable.client;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

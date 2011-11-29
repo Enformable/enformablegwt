@@ -1,4 +1,4 @@
-package mainsite.shared;
+package com.enformable.shared;
 
 /**
  * <p>

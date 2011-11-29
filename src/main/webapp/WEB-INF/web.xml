@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>mainsite.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.enformable.server.GreetingServiceImpl</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/com.enformable/greet</url-pattern>
+    <url-pattern>/NewsSite/greet</url-pattern>
   </servlet-mapping>
 
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>com.enformable.html</welcome-file>
+    <welcome-file>NewsSite.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

@@ -6,8 +6,8 @@
 
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>enformable[H[D[D[D[D[D</groupId>
-  <artifactId>gwtsite</artifactId>
+  <groupId>com.enformable</groupId>
+  <artifactId>news</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>GWT Maven Archetype</name>
@@ -78,9 +78,9 @@
         <!-- Plugin configuration. There are many available options, see 
           gwt-maven-plugin documentation at codehaus.org -->
         <configuration>
-          <runTarget>com.enformable.html</runTarget>
+          <runTarget>NewsSite.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
-          <i18nMessagesBundle>mainsite.client.Messages</i18nMessagesBundle>
+          <i18nMessagesBundle>com.enformable.client.Messages</i18nMessagesBundle>
         </configuration>
       </plugin>
 

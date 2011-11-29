@@ -1,7 +1,7 @@
-package mainsite.server;
+package com.enformable.server;
 
-import mainsite.client.GreetingService;
-import mainsite.shared.FieldVerifier;
+import com.enformable.client.GreetingService;
+import com.enformable.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
