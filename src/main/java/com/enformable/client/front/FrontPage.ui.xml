@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<ui:with type="com.enformable.client.front.FrontPageBundle" field="fpres"></ui:with>
+	<g:HTMLPanel>
+		<g:VerticalPanel >
+			<g:Image resource="{fpres.continuum}" />
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
