@@ -5,20 +5,20 @@
 
 <web-app>
 
-  <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.enformable.server.GreetingServiceImpl</servlet-class>
-  </servlet>
+  <!--&lt;!&ndash; Servlets &ndash;&gt;-->
+  <!--<servlet>-->
+    <!--<servlet-name>greetServlet</servlet-name>-->
+    <!--<servlet-class>mainsite.server.GreetingServiceImpl</servlet-class>-->
+  <!--</servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/NewsSite/greet</url-pattern>
-  </servlet-mapping>
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>greetServlet</servlet-name>-->
+    <!--<url-pattern>/com.enformable/greet</url-pattern>-->
+  <!--</servlet-mapping>-->
 
-  <!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>NewsSite.html</welcome-file>
-  </welcome-file-list>
+  <!--&lt;!&ndash; Default page to serve &ndash;&gt;-->
+  <!--<welcome-file-list>-->
+    <!--<welcome-file>com.enformable.html</welcome-file>-->
+  <!--</welcome-file-list>-->
 
 </web-app>

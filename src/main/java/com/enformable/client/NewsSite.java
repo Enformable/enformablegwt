@@ -9,7 +9,12 @@ import com.google.gwt.user.client.ui.RootPanel;
  */
 public class NewsSite implements EntryPoint {
 
+
     public void onModuleLoad() {
-        RootPanel rootPanel = RootPanel.get();rootPanel.clear();rootPanel.add(new Label(){{setText("special northrup style closure here.");}});
+        RootPanel rootPanel = RootPanel.get();
+        rootPanel.clear();
+        rootPanel.add(new Label() {{
+            setText("special northrup style closure here.");
+        }});
     }
 }
