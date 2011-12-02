@@ -6,7 +6,6 @@ function(keys,values){
     var nv = [];
     for (var i = 0; i < values.length; i++) {
           nv.add(values[keys.indexOf(nk[i])]) = values[i];
-
     }
 
     return nv;
