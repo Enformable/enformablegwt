@@ -1,12 +1,11 @@
-function(keys,values){
+function(keys, values) {
 
-    var newKeys = keys.slice(0);
-
-    var nk = newKeys.sort().reverse().slice(0, 10);
-    var nv = [];
-    for (var i = 0; i < values.length; i++) {
-          nv.add(values[keys.indexOf(nk[i])]) = values[i];
+    var a = [];
+    for (var i = 0; i < keys.length; i++) {
+        a.push({date: keys[i], id: values[i] });
     }
-
-    return nv;
+    var sorta = a.sort(function(a, b) {
+        return a.date - b.date
+    });
+    return sorta.slice(0, 9);
 }
