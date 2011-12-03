@@ -23,9 +23,9 @@
   <entry-point class='com.enformable.client.NewsSite' />
 
   <!-- Specify the paths for translatable code                    -->
-  <!--<source path='client' />
+  <source path='client' />
   <source path='shared' />
--->
+
     <!--deprecated--><stylesheet src="NewsSite.css"/>
 
 </module>
