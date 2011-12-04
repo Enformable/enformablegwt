@@ -12,14 +12,14 @@
        <g:west size='200' unit='EM'>
            <g:ScrollPanel>
          <g:FlowPanel styleName="{style.westPanel}">
-                <g:VerticalPanel ui:field='indexWrapper' width="100%" height="100%"></g:VerticalPanel>
+                <g:VerticalPanel ui:field='indexWrapper' width="100%" height="100%"/>
          </g:FlowPanel>
            </g:ScrollPanel>
        </g:west>
        <g:center>
          <g:FlowPanel styleName="{style.centerPanel}">
              <g:VerticalPanel ui:field='contentEditWrapper'>
-                <g:RichTextArea ui:field='contentEdit' width="100%" ></g:RichTextArea>
+                <g:RichTextArea ui:field='contentEdit' width="100%" />
              </g:VerticalPanel>
          </g:FlowPanel>
        </g:center>

@@ -1,5 +1,6 @@
 package com.enformable.client.front;
 
+import com.enformable.client.toolbar.RichTextToolbar;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
@@ -29,15 +30,9 @@ public class MainSplitLayout extends Composite {
 
     public MainSplitLayout() {
         initWidget(uiBinder.createAndBindUi(this));
-
         contentEditWrapper.insert(new RichTextToolbar(contentEdit), 0);
-
-
         for (int i = 0; i < 10; i++) {
             indexWrapper.add(new ItemCell("News Item", new Date()));
         }
-
     }
-
-
 }

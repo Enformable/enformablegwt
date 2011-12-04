@@ -2,10 +2,8 @@
 
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
-	<ui:style>
-		
-	</ui:style>
-	<ui:with type="com.enformable.client.front.FrontPageBundle" field="fpres"></ui:with>
+
+	<ui:with type="com.enformable.client.front.FrontPageBundle" field="fpres"/>
 	<g:HTMLPanel>
 		<g:VerticalPanel >
 			<g:Image resource="{fpres.continuum}" />

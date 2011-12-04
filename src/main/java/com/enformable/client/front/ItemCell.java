@@ -4,8 +4,9 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.MouseUpEvent;
 import com.google.gwt.event.dom.client.MouseUpHandler;
-import com.google.gwt.event.shared.GwtEvent;
-import com.google.gwt.user.client.ui.*;
+import com.google.gwt.user.client.ui.FocusPanel;
+import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.VerticalPanel;
 
 import java.util.Date;
 
@@ -43,7 +44,6 @@ public class ItemCell extends FocusPanel implements ClickHandler {
                 refresh();
             }
         });
-
         refresh();
     }
 
