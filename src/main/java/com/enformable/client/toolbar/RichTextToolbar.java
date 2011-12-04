@@ -103,7 +103,7 @@ public class RichTextToolbar extends Composite {
      *
      * @param richtext
      */
-    RichTextToolbar(RichTextArea richtext) {
+    public RichTextToolbar(RichTextArea richtext) {
         //Initialize the main-panel
         VerticalPanel outer = new VerticalPanel();
 
