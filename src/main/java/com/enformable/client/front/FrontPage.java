@@ -2,8 +2,7 @@ package com.enformable.client.front;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.user.client.ui.*;
 
 /**
  * eclipse designer requires
@@ -17,6 +16,9 @@ public class FrontPage extends Composite {
 	interface FrontPageUiBinder extends UiBinder<Widget, FrontPage> {
 	} 
 	public   FrontPage() {
-		initWidget(uiBinder.createAndBindUi(this));
+		super();
+        initWidget(uiBinder.createAndBindUi(this));
+
+
 	}
 }

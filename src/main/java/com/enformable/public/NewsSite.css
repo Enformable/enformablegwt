@@ -32,3 +32,47 @@ h1 {
 #closeButton {
   margin: 15px 6px 6px;
 }
+
+.itemCellTitle {
+    font-weight: bold;
+}
+
+.itemCellSelected {
+    background-color: #fa0;
+}
+
+.itemCellUnselected {
+    background-color: #999;
+}
+
+.itemCell {
+    padding:  15px 15px 15px 15px;
+    width: 100%;
+}
+
+.header {
+    background-color: #222;
+    width: 100%;
+    height: 65px;
+}
+
+.mainMenu {
+    background-color: #444;
+    width: 100%;
+    height: 65px;
+}
+
+.headerNameLabel {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, sans;
+    font-weight: bold;
+}
+
+.gwt-MenuBar-horizontal {
+    background: none;
+    border:  none;
+}
+.gwt-MenuBar-horizontal .gwt-MenuItem {
+    color: white;
+}
