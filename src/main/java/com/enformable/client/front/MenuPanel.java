@@ -1,8 +1,11 @@
 package com.enformable.client.front;
 
 import com.google.gwt.dom.client.Style;
+import com.google.gwt.user.client.Command;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.MenuBar;
 
 
 /**
@@ -17,10 +20,24 @@ public class MenuPanel extends DockLayoutPanel {
     public MenuPanel() {
         super(Style.Unit.PCT);
 
-        setStylePrimaryName("header");
+        setStyleName("mainMenu");
 
-        Label nameLabel = new Label("Anonymous");
-        nameLabel.setStyleName("headerNameLabel");
-        addWest(nameLabel, 50);
+        MenuBar main = new MenuBar(false);
+
+        Command cmd = new Command() {
+            public void execute() {
+                Window.alert("You selected a menu item!");
+            }
+        };
+
+        main.addItem("+", cmd);
+        main.addItem("Channel", cmd);
+        main.addItem("When", cmd);
+        main.addItem("Where", cmd);
+        main.addItem("What", cmd);
+        main.addItem("Who", cmd);
+
+        addWest(main, 50);
+
     }
 }
